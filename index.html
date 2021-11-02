@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Movable window test</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+
+    <body>
+        <a class="embed-button" onclick="showEmbed()">(embed)</a>
+        <div id="movablewindow">
+            <div id="movablepart-container">
+                <a class="close-embed" onclick="hideEmbed()">x</a>
+                <div id="movablepart-text">Embed player</div>
+            </div>
+            <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/qYvDg4dktI4"
+                title="YouTube video player"
+                frameborder="0"
+                allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+        </div>
+        <script type="text/javascript" src="js/movewindow.js"></script>
+    </body>
+
+</html>
