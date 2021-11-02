@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300&display=swap');
+
+/* ----------------------------------------------------------------- */
+/* MAIN */
+
+body {
+    background: #222222;
+    background-size: cover;
+}
+
+hr {
+    border: 1.5px solid;
+    border-radius: 1px;
+    border-color: #333;
+}
+
+/* ----------------------------------------------------------------- */
+/* MOVABLE WINDOW */
+
+#movablewindow {
+    display: none;
+    position: fixed;
+    left: 70%;
+    z-index: 9;
+    background-color: #121212;
+    opacity: 95%;
+    border: 1px solid #333333;
+    border-radius: 4px;
+}
+
+#movablepart-container {
+    border-radius: 4px 4px 0px 0px;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: right;
+    line-height: 0px;
+    min-height: 25px;
+    padding-top: 7px;
+}
+
+#movablepart-text {
+    text-align: center;
+    font-size: 15px;
+    color: #ffffff;
+    padding-top: 6px;
+}
+
+/* ----------------------------------------------------------------- */
+/* BUTTONS / LINKS */
+
+.close-embed {
+    padding-right: 5px;
+    font-size: 11px;
+    color: #ffffff;
+}
+
+.close-embed:hover {
+    color: #a1a1a1;
+    cursor: pointer;
+}
+
+.embed-button {
+    color: #980000;
+    text-decoration: none;
+
+}
+
+.embed-button:hover {
+    cursor: pointer;
+    color: #690000;
+}
