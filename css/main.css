@@ -73,13 +73,13 @@ p {
     color: #690000;
 }
 
-button {
+a {
     color: #980000;
     text-decoration: none;
 
 }
 
-button:hover {
+a:hover {
     cursor: pointer;
     color: #690000;
 }
